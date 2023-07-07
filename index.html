@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore your business</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo" >Show Now</h2>
+            <div class="toggle"></div>
+
+        </header>
+        <video src="beach.mp4" muted loop autoplay 0.5sec></video>
+        <div class="overplay"></div>
+        <div class="text">
+            <h2>Never Stop To</h2>
+            <h3>Exploring The Business</h3>
+            <p>If you would like to experience the best of online
+                shopping for men, women and kids in Nepal, you are at
+                the right place. Shop Now is the ultimate distination for fashion and lifestyle, being host
+                to a wide array of merchandise including clothing, footwear, accessories, personal care product and 
+                more. You can show online at Shop Now from the comfort of your home and get your favourites delivered
+                right to your doorstep.
+            </p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/hackerspider1101"><img src="https://i.ibb.co/x7P24fL/facebook.jpg"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/hackerspider1101/"><img src="https://i.ibb.co/ySwtH4B/instagram.jpg"></a></li>
+        </ul>
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Desgination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+<script>
+    const menuToggle=document.querySelector('.toggle')
+    const showcase=document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click',()=>
+    {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+    })
+</script>
+</body>
+
+</html>
